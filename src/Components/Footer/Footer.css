@@ -1,0 +1,95 @@
+footer {
+    height: 25vh;
+    background-color: rgba(249, 180, 31, 0.4);
+}
+
+.footer {
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.routeFooter{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12%;
+}
+
+
+.contactFooter{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8%;
+}
+
+.contactFooter p {
+    margin-top: 9%;
+}
+
+.contactFooter form{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15%;
+}
+
+.contactFooter form input{ 
+    border: none;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+}
+
+.suscribeFooter {
+    background-color: #73FFE6;
+}
+
+.midFooter {
+    height: 100%;
+    width: 33%;
+}
+
+.socialFooter {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socialImages {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.socialCircle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+
+.textFooter {
+    height: 10%;
+    text-align: center;
+}
+
