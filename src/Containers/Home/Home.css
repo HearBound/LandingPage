@@ -4,9 +4,267 @@ body {
 }
 
 .main {
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(189, 224, 254, 0.8);
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start; 
+}
+
+.one { 
+    background-color: rgba(6, 75, 224, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titleMain {
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: #F9B41F;
+    font-family: Coiny;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.subtitleMain {
+    width: 23.5rem;
+    font-size: 2rem;
+    color: #ffff;
+    font-family: Coiny;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.newsletterMain {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.formMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.emailMain input{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    width: 15rem;
+} 
+
+.mainButton {
+    cursor: pointer;
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font: bold;
+    font-family: Coiny;
+    background-color: #2091F9;
+} 
+
+.three { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleMainSection {
+    margin-top: 5%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.titleLineBlue {
+    height: 0.4rem;
+    width: 50%;
+    border-radius: 0.2rem;
+    background-color: #3A5AFF;
+}
+
+.titleLinePurple {
+    height: 0.4rem;
+    width: 50%;
+    border-radius: 0.2rem;
+    background-color: #BD00FF;
+}
+
+.titleLineGreen {
+    height: 0.4rem;
+    width: 50%;
+    border-radius: 0.2rem;
+    background-color: #07FF02;
+}
+
+.bodyMainSection {
+    width: 100%;
+    height: 100vh;
+}
+
+.whiteSection {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.whiteSectionImage img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.whiteSectionText{
+    width: 25%;
+}
+
+.whiteTitle{
+    font-family: Coiny;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.whiteParragraph{
+    text-align: justify;
+}
+
+.graySection {
+    background-color: #F6F7FA;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.graySectionImage {
+    margin-right: 10%;
+}
+
+.graySectionImage img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.graySectionText{
+    width: 25%;
+    text-align: right;
+}
+
+.grayTitle{
+    font-family: Coiny;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.four { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.six { 
+    display: flex;
+    flex-direction: column;
+}
+
+.testNow {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Coiny';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.testNow button {
+    width: 10rem;
+    background-color:  #3A5AFF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    cursor: pointer;
+    color: #ffff;
+    font: bold;
+    font-family: Coiny;
+    box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 35%;
+    width: 100%;
+    font-family: 'Open Sans';
+    background: linear-gradient(90deg, rgba(0, 245, 160, 0.4) 0%, rgba(0, 217, 245, 0.4) 100%);
+    border-top-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+.partners p {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.partnersImages {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.partnersImages img {
+    cursor: pointer;
+    min-width: 6rem;
+    height: 6rem;
+}
+
+.holded img {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
 }

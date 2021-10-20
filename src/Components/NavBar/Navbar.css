@@ -2,8 +2,8 @@
     top: 0;
     position: fixed;
     height: 8%;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,7 +28,7 @@
     height: 100%;
 }
 .textNavBar {
-    margin-left: 2%;
+    margin-left: 5%;
     width: 30%;
     display: flex;
     align-items: center;
@@ -48,9 +48,53 @@
 }
 
 .buttonNavBar button {
-    background-color:  #73FFE6;
+    transition: 1s;
+    background-color:  #3A5AFF;
     border: none;
-    border-radius: 0.3rem;
-    padding: 0.8rem;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
     cursor: pointer;
+    color: #ffff;
+    font: bold;
+    font-family: Coiny;
+    -webkit-box-shadow: 0px 4px 0px 0px #1814ff; 
+    box-shadow: 0px 4px 0px 0px #1814ff;
+}
+
+.buttonNavBar button:hover {
+
+    transition: 1s;
+    -webkit-box-shadow: 0px 0px 0px 0px #1814ff; 
+    box-shadow: 0px 0px 0px 0px #1814ff;
+}
+
+.homeNavBar {
+    transition: 1s;
+    cursor: pointer;
+    color: #F9B41F;
+    
+}
+
+.logoNavBar {
+    cursor: pointer;
+}
+
+.aboutNavBar {
+    transition: 0.5s;
+}
+
+.aboutNavBar:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #F9B41F;
+}
+
+.contactNavBar {
+    transition: 0.5s;
+}
+
+.contactNavBar:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #F9B41F;
 }
