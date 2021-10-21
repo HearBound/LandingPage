@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.mainTryFree {
+  width: 100%;
+  height: 100%;
+}
+
+.coverTryFree {
+  width: 100%; /* Can be in percentage also. */
+  height: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(6, 75, 224, 0.2);
+}
+
+.titleTryFree {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  color: #2F281E;
+}
+
+.position1TryFree {
+  margin-top: 7%;
+}
+
+.position2TryFree {
+  margin-top: 4%;
+}
+
+.title2TryFree {
+  margin-top: 4%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.coverDescriptionTryFree {
+  margin: 1% auto;
+  display: block;
+  width: 50%;
+}
+
+.coverDescriptionTextTryFree {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #544837;
+}
+
+.coverRegisterMainTryFree {
+  display: block;
+}
+
+.coverRegisterInputTryFree {
+  margin-left: 4%;
+  background: #ffffff;
+  border: 2px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 2.5%;
+  width: 60%;
+  height: 60px;
+}
+
+.coverRegisterButtonTryFree {
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-right: 4%;
+  width: 30%;
+  height: 66px;
+  background: #2091f9;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.coverRegisterContactTryFree {
+  display: block;
+  margin: auto;
+}
+.coverRegisterButtonContactTryFree {
+  position: relative;
+  left: 33%;
+  width: 30%;
+  height: 66px;
+  background: #2091f9;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
