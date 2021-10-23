@@ -4,6 +4,7 @@ body {
 }
 
 .mainTryFree {
+  margin-top: 10%;
   width: 100%;
   height: 100%;
 }
@@ -13,7 +14,7 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 10px;
-  background-color: rgba(6, 75, 224, 0.2);
+  background-color: #FAFBFE;
 }
 
 .titleTryFree {
@@ -109,24 +110,49 @@ body {
 }
 
 @media screen and (max-width:800px) {
-  .coverRegisterInputTryFree {
-    margin: auto;
-    display: block;
-    width: auto;
+
+  .coverDescriptionTextTryFree {
+    text-align: left;
+    width: 150%;
+    position: relative;
+    right: 30%;
   }
 
-  .coverRegisterButtonTryFree {
+  .coverRegisterButtonTryFree, .coverRegisterInputTryFree {
     display: block;
     margin: auto;
-    width: auto;
+    margin-top: 5%;
+    width: 150%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    right: 30%;
   }
 
   .coverRegisterButtonContactTryFree {
     display: block;
     margin: auto;
-    width: auto;
+    width: 90%;
     position: relative;
     left: 0%;
+  }
+
+  .titleTryFree {
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .title2TryFree {
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    position: relative;
+    right: 0%;
   }
 
 }
