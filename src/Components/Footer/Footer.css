@@ -94,3 +94,110 @@ footer {
     text-align: center;
 }
 
+
+@media (max-width: 950px) {
+    .footer {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: space-between;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    footer {
+        height: 50vh;
+    }
+
+    .routeFooter {
+        width: 80%;
+        flex-direction: row;
+    }
+
+    .textFooter{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 42.5%;
+        margin-bottom: -5%;
+    }
+
+    .contactFooter {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .contactFooter form{ 
+        display: flex;
+        margin-right: 40%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: space-between;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    footer {
+        height: 60vh;
+    }
+
+    .routeFooter {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    .midFooter{
+        width: 100%;
+    }
+
+    .textFooter{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 42.5%;
+        margin-bottom: -5%;
+    }
+
+    .contactFooter {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .contactFooter form{ 
+        width: 100%;
+        display: flex;
+        margin-right: 40%;
+        justify-content: center;
+    }   
+}
+
+@media (max-width: 500px) {
+    .routeFooter {
+        font-size: 0.6rem;
+        max-width: 100%;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+
+    .contactFooter{
+        margin-right: 40%;
+    }
+
+    .contactFooter p {
+        width: 10rem;
+        margin-left: 40%;
+        font-size: 0.6rem;
+        text-align: center;
+    }
+}

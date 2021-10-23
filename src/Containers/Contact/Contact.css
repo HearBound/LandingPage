@@ -98,23 +98,28 @@
         width: 15rem;
     }
     .contactImage img {
+        transition: 1s;
         width: 8rem;
         height: 8rem;
     }
     .contactFormBox {
+        transition: 1s;
+        width: 90%;
         height: 100vh;
         flex-wrap: wrap;
         gap: 5%;
         flex-direction: column;
     }
     .contactInput {
+        transition: 1s;
         height: 50%;
     }
     .contactPage{ 
-        margin-top: 10%;
+        transition: 1s;
         height: auto ;
     }
     .contactImage{
+        transition: 1s;
         display: flex;
         flex-direction: column;
         align-items: center;
