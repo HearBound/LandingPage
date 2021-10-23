@@ -6,8 +6,12 @@ const About = () => {
     return (
         <>
             <Navbar />
-            <div className='main'>
-                
+            <div className='about'>
+                <div className='titleAbout'>
+                    <div className='decorationAbout'></div>
+                    <h2>Nuestra Historia</h2>
+                    <div className='decorationAbout'></div>
+                </div>
             </div>
             <Footer />
         </>

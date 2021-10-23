@@ -14,6 +14,7 @@
 }
 
 .contactFormBox {
+    transition: 1s;
     width: 60%;
     height: 75%;
     background: rgba(6, 75, 224, 0.2);
@@ -52,6 +53,7 @@
 }
 
 .contactInput input{
+    transition: 1s;
     background: #E3E3E3;
     width: 25rem;
     outline-style: none;
@@ -70,4 +72,52 @@
 .contactMessage {
     padding: 1rem;
     padding-bottom: 6rem;
+}
+
+
+@media (max-width: 1300px) {
+    .contactFormBox {
+        transition: 1s;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .contactFormBox {
+        transition: 1s;
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 850px) {
+    .contactInput input{
+        transition: 1s;
+        width: 15rem;
+    }
+    .contactImage img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .contactFormBox {
+        height: 100vh;
+        flex-wrap: wrap;
+        gap: 5%;
+        flex-direction: column;
+    }
+    .contactInput {
+        height: 50%;
+    }
+    .contactPage{ 
+        margin-top: 10%;
+        height: auto ;
+    }
+    .contactImage{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
