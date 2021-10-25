@@ -12,10 +12,10 @@ const TryFree = () => {
                     <div className='titleTryFree position1TryFree'>¿Cómo me registro?</div>
                     <div className='coverDescriptionTryFree'>
                         <div className='coverDescriptionTextTryFree'>
-                            Para registrarte basta con dejar tu mail, nosotros te avisaremos<br/>
-                            cuando HearBound esté listo. Además, serás recompensado con<br/>
-                            ventajas en la plataforma.<br/>
-                            Aparte de tener la oportunidad de ser una de las primeras personas en<br/>
+                            Para registrarte basta con dejar tu mail, nosotros te avisaremos
+                            cuando HearBound esté listo. Además, serás recompensado con
+                            ventajas en la plataforma.
+                            Aparte de tener la oportunidad de ser una de las primeras personas en
                             probar y subir canciones.
                         </div>
                         <form className='coverRegisterMainTryFree'>
@@ -27,10 +27,10 @@ const TryFree = () => {
                     <div className='titleTryFree position2TryFree'>¿Cuándo estará listo?</div>
                     <div className='coverDescriptionTryFree'>
                         <div className='coverDescriptionTextTryFree'>
-                        El proyecto aún está en desarrollo, y, aunque no tenemos una fecha<br/>
-                        exacta, será cuestión de tiempo que HearBound esté disponible para<br/>
-                        los músicos y oyentes de todo el mundo. Siempre puedes aportar tu<br/>
-                        granito de arena compartiendo HearBound con más gente para que<br/>
+                        El proyecto aún está en desarrollo, y, aunque no tenemos una fecha
+                        exacta, será cuestión de tiempo que HearBound esté disponible para
+                        los músicos y oyentes de todo el mundo. Siempre puedes aportar tu
+                        granito de arena compartiendo HearBound con más gente para que
                         todos juntos hagamos esto posible.
                         </div>
                     </div>
