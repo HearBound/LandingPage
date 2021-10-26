@@ -268,3 +268,84 @@ section{
     width: 2rem;
     height: 2rem;
 }
+
+@media (max-width: 1200px) {
+    .titleMainSection {
+        margin-top: 8%;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .titleMain {
+        font-size: 3rem;
+    }
+    
+    .subtitleMain {
+        font-size: 1.5rem;
+    }
+
+    .titleMainSection {
+        margin-top: 10%;
+    }
+
+    .whiteSection {
+        margin-left: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whiteSectionText {
+        width: 50%;
+    }
+
+    .whiteSectionImage {
+        display: none;
+    }
+
+    .graySection {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .graySectionImage {
+        display: none;
+    }
+
+    .graySectionText {
+        width: 50%;
+    }
+
+    .testNow {
+        margin-top: 5%;
+        height: 30%;
+        font-size: 1.5rem;
+    }
+
+    .partners {
+        font-size: 1rem;
+    }
+
+    .partnersImages img {
+        height: 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleMainSection {
+        margin-top: 18%;
+    }
+    
+    .whiteSectionText {
+        width: 80%;
+    }
+
+    .graySectionText {
+        width: 80%;
+    }
+
+    .testNow {
+        margin-top: 8%;
+        text-align: center;
+    }
+}

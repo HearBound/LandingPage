@@ -1,0 +1,24 @@
+.card img{
+    width: 9rem;
+    height: 12rem;
+    background-color: violet;
+    border-radius: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card h4{
+    margin-bottom: 0;
+}
+
+.card p{
+    font-style: italic;
+    font-family: Montserrat;
+    font-weight: normal;
+}

@@ -16,3 +16,107 @@
     height: 2px;
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%)
 }
+
+.textAbout {
+    margin-top: 2%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans';
+    color: #544837;
+    font-weight: bold;
+}
+
+.titleTeam {
+    margin-top: 20%;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Coiny;
+    text-align: center;
+}
+
+.cards {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.endingTextAbout {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Open Sans';
+    color: #544837;
+    font-weight: bold;
+}
+
+.endingTextAbout p{
+    margin-bottom: 0;
+}
+
+.testNowAbout {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testNowAbout div{
+    font-family: Coiny;
+    font-size: 2rem;
+}
+
+.testNowAbout button {
+    margin-top: 8%;
+    margin-bottom: 30%;
+    width: 10rem;
+    background-color:  #3A5AFF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    color: #ffff;
+    font: bold;
+    font-family: Coiny;
+    box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 1200px) {
+    .titleAbout{
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+    .titleAbout{
+        margin-top: 20%;
+    }
+
+    .textAbout {
+        width: 80%;
+    }
+
+    .endingTextAbout {
+        width: 90%;
+    }
+
+    .testNowAbout {
+        margin-top: 10%;
+    }
+
+    .testNowAbout div{
+        font-size: 1.4rem;
+    }
+}
