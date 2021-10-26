@@ -3,6 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <footer>
+
             <div className='footer'>
                 <div className='routeFooter'>
                     <div>Privacidad</div>
@@ -19,17 +20,20 @@ const Footer = () => {
                             <div className='socialCircle'></div>
                         </div>
                     </div>
-                    <div className='textFooter'>2021 Hearbound</div>
                 </div>
                 <div className='contactFooter'>
                     <p>No te pierdas nada. Suscríbete!</p>
                     <form>
                         <input name='email' type='email' placeholder='Email' />
-                        <input name='submit' className='suscribeFooter' type='submit' value='Suscríbete'/>
+                        <input name='submit' className='suscribeFooter' type='submit' value='Suscríbete' />
                     </form>
                 </div>
             </div>
+            <div>
+                <div className='textFooter'>2021 HearBound</div>
+            </div>
         </footer>
+
     );
 }
 
