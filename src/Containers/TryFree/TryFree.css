@@ -111,6 +111,7 @@ body {
 }
 input[type="submit"]{
   box-shadow: inset 1px -4px 1px rgba(0, 0, 0, 0.25);
+  transition: .2s;
 }
 
 input[type="submit"]:active{
@@ -118,8 +119,8 @@ input[type="submit"]:active{
 }
 
 input[type="submit"]:hover{
-  transform: scale(1.01, 1.01);
-  transition: .2s;
+  transform: scale(1.05, 1.05);
+  
 }
 
 @media screen and (max-width:800px) {
