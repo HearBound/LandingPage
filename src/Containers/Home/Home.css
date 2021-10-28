@@ -158,7 +158,6 @@ section{
     height: 50%;
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: right;
     flex-wrap: wrap;
@@ -291,6 +290,8 @@ section{
 
     .whiteSection {
         margin-left: 5%;
+        flex-direction: column;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
@@ -299,17 +300,22 @@ section{
         width: 50%;
     }
 
-    .whiteSectionImage {
-        display: none;
+    .whiteSectionImage img{
+        width: 8rem;
+        height: 8rem;
     }
 
     .graySection {
+        flex-direction: column-reverse;
+        text-align: center;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
 
-    .graySectionImage {
-        display: none;
+    .graySectionImage img{
+        width: 8rem;
+        height: 8rem;
     }
 
     .graySectionText {

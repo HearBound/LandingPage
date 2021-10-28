@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -29,6 +33,11 @@
     font-family: 'Open Sans';
     color: #544837;
     font-weight: bold;
+    z-index: 3;
+}
+
+.team {
+    z-index: 3;
 }
 
 .titleTeam {
@@ -119,4 +128,24 @@
     .testNowAbout div{
         font-size: 1.4rem;
     }
+}
+
+.colorBlueAbout {
+    position: absolute;
+    margin-top: 10%;
+    width: 200%;
+    height: 80vh;
+    background: linear-gradient(90deg, rgba(0, 245, 160, 0.2) 0%, rgba(0, 217, 245, 0.2) 100%);
+    border-radius: 41% 59% 65% 35% / 40% 42% 58% 60% ;
+    z-index: 1;
+}
+
+.colorPurpleAbout{
+    position: absolute;
+    margin-top: 90%;
+    width: 200%;
+    height: 80vh;
+    background: linear-gradient(90deg, rgba(148, 0, 211, 0.2) 0%, rgba(75, 0, 130, 0.2) 100%);
+    border-radius: 50% 50% 65% 35% / 15% 16% 84% 85% ;
+    z-index: 1;
 }

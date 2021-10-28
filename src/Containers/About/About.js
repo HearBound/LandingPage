@@ -24,6 +24,7 @@ const About = () => {
                     <p>Hoy por hoy HearBound es el lugar donde descubrir compartir y disfrutar de musica de todo tipo.</p>
 
                 </div>
+                <div className='colorBlueAbout'></div>
                 <div className='team'>
                     <div className='titleTeam'>Este es nuestro equipo</div>
                     <div className='cards'>
@@ -45,6 +46,7 @@ const About = () => {
                     <div>¿Imaginas la vida sin musica?</div>
                     <button>Pruébalo gratis</button>
                 </div>
+                <div className='colorPurpleAbout'></div>
             </div>
             <Footer />
         </>
