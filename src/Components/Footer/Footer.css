@@ -115,6 +115,17 @@ footer {
         flex-direction: row;
     }
 
+<<<<<<< HEAD
+=======
+    .textFooter{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 42.5%;
+        margin-bottom: -5%;
+    }
+
+>>>>>>> Features
     .contactFooter {
        display: flex;
        align-items: center;
@@ -154,6 +165,18 @@ footer {
         width: 100%;
     }
 
+<<<<<<< HEAD
+=======
+    .textFooter{
+        color: black;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-left: 42.5%;
+        margin-bottom: -5%;
+    }
+
+>>>>>>> Features
     .contactFooter {
        display: flex;
        align-items: center;
@@ -186,4 +209,8 @@ footer {
         font-size: 0.6rem;
         text-align: center;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> Features
