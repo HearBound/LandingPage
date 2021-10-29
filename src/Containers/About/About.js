@@ -8,7 +8,10 @@ const About = () => {
     return (
         <>
             <Navbar />
+            
             <div className='about'>
+            <div className='colorBlueAbout'></div>
+                <div className='colorPurpleAbout'></div>
                 <div className='titleAbout'>
                     <div className='decorationAbout'></div>
                     <h2>Nuestra Historia</h2>
@@ -24,14 +27,14 @@ const About = () => {
                     <p>Hoy por hoy HearBound es el lugar donde descubrir compartir y disfrutar de musica de todo tipo.</p>
 
                 </div>
-                <div className='colorBlueAbout'></div>
+
                 <div className='team'>
                     <div className='titleTeam'>Este es nuestro equipo</div>
                     <div className='cards'>
                         <TeamCard image={Image} name='Jaime Martinez' job='CEO' />
                         <TeamCard image={Image} name='William Sargisson' job='COO'/>
                         <TeamCard image={Image} name='Gregorio Bujor' job='CTO'/>
-                        <TeamCard image={Image} name='Angel Rodriguez' job='Programador y Subdirector de desarrollo'/>
+                        <TeamCard image={Image} name='Angel Rodriguez' job='Subdirector de desarrollo'/>
                         <TeamCard image={Image} name='David Martinez' job='Programador'/>
 
                     </div>
@@ -46,7 +49,7 @@ const About = () => {
                     <div>¿Imaginas la vida sin musica?</div>
                     <button>Pruébalo gratis</button>
                 </div>
-                <div className='colorPurpleAbout'></div>
+                
             </div>
             <Footer />
         </>
