@@ -1,7 +1,8 @@
 footer {
     height: 25vh;
     background: #212529;
-    color: #ffff;
+    color: #fff;
+    z-index: 10000;
 }
 
 .footer {

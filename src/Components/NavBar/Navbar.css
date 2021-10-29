@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     background: transparent;
-    z-index: 3;
+    z-index: 10000000000000000;
 }
 
 .routeNavBar {

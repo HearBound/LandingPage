@@ -1,6 +1,6 @@
 .card img{
-    width: 9rem;
-    height: 12rem;
+    width: 10rem;
+    height: 12.5rem;
     background-color: violet;
     border-radius: 1rem;
 }
@@ -21,4 +21,17 @@
     font-style: italic;
     font-family: Montserrat;
     font-weight: normal;
+}
+
+@media (max-width: 600px) {
+    .card img{
+        width: 8rem;
+        height: 10rem;
+    }
+    .card p{
+        font-style: italic;
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 0.8rem;
+    }
 }

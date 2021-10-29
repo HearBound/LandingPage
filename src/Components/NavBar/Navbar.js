@@ -57,7 +57,7 @@ const Navbar = () => {
                     </div>
                     <div className='buttonNavBar'>
                         <div>¿Eres músico?</div>
-                        <button>Pruébalo Gratis</button>
+                        <button onClick={() => history.push('/new')}>Pruébalo Gratis</button>
                     </div>
                 </div>
                 <div id="hamburger" ref={hamburgerNavBar} onClick={handleClick}>
