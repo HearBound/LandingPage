@@ -12,12 +12,12 @@ const Contact = () => {
                     <div className='contactFormBox'>
                         <div className='contactImage'>
                             <h1>Contáctanos</h1>
-                            <img src={Image} />
+                            <img src={Image} alt="placeholder" />
                         </div>
                         <div className='contactInput'> 
                                 <input type='text' className='contactName' placeholder='Escriba su nombre' />
                                 <input type='email' className='contactEmail' placeholder='Correo Electronico'/>
-                                <input type='text' className='contactMessage' placeholder='Escriba un mensaje...' />
+                                <textarea className='contactMessage' placeholder='Escriba un mensaje...' />
                                 <button >Enviar Mensaje</button>
                         </div>
                     </div>

@@ -1,128 +1,151 @@
-.contactPage{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+.contactPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .contactForm {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactFormBox {
-    transition: 1s;
-    width: 60%;
-    height: 75%;
-    background: rgba(6, 75, 224, 0.2);
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10%;
+  transition: 1s;
+  width: 60%;
+  height: 75%;
+  background: rgba(6, 75, 224, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.contactImage {
+  height: 80%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactImage h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
 }
 
 .contactImage img {
-    width: 15rem;
-    height: 15rem;
+  width: 80%;
+  height: 80%;
 }
 
 .contactInput {
-    width: 50%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contactInput button {
-    background: #2091F9;
-    border: none;
-    cursor: pointer;
-    width: 10rem;
-    padding: 1rem;
-    color: #ffff;
-    font-family: Coiny;
-    border-radius: 0.4rem;
+  background: #2091f9;
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  padding: 1rem;
+  color: #ffff;
+  font-family: Coiny;
+  border-radius: 0.4rem;
 }
 
-.contactInput input{
-    transition: 1s;
-    background: #E3E3E3;
-    width: 25rem;
-    outline-style: none;
-    border: none;
-    border-radius: 1rem;
+.contactInput input,
+textarea {
+  transition: 1s;
+  background: #e3e3e3;
+  width: 90%;
+  outline-style: none;
+  border: none;
+  border-radius: 1rem;
 }
 
 .contactName {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .contactEmail {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .contactMessage {
-    padding: 1rem;
-    padding-bottom: 6rem;
+  padding: 1rem;
+  padding-bottom: 6rem;
 }
-
 
 @media (max-width: 1300px) {
-    .contactFormBox {
-        transition: 1s;
-        width: 80%;
-        height: 80%;
-    }
+  .contactForm {
+    margin-top: 5%;
+  }
+  .contactFormBox {
+    transition: 1s;
+    width: 80%;
+    height: 90%;
+  }
 }
 
-
 @media (max-width: 1000px) {
-    .contactFormBox {
-        transition: 1s;
-        width: 90%;
-        height: 80%;
-    }
+  .contactFormBox {
+    transition: 1s;
+    width: 90%;
+    height: 80%;
+  }
 }
 
 @media (max-width: 850px) {
-    .contactInput input{
-        transition: 1s;
-        width: 15rem;
-    }
-    .contactImage img {
-        transition: 1s;
-        width: 8rem;
-        height: 8rem;
-    }
-    .contactFormBox {
-        transition: 1s;
-        width: 90%;
-        height: 100vh;
-        flex-wrap: wrap;
-        gap: 5%;
-        flex-direction: column;
-    }
-    .contactInput {
-        transition: 1s;
-        height: 50%;
-    }
-    .contactPage{ 
-        transition: 1s;
-        height: auto ;
-    }
-    .contactImage{
-        transition: 1s;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+  .contactInput input,
+  textarea {
+    transition: 1s;
+    width: 100%;
+  }
+  .contactMessage {
+    overflow: hidden;
+  }
+  .contactImage img {
+    transition: 1s;
+    width: 16rem;
+    height: 16rem;
+  }
+  .contactFormBox {
+    transition: 1s;
+    width: 90%;
+    height: 100vh;
+    gap: 5%;
+    flex-direction: column;
+  }
+  .contactInput {
+    height: 30rem;
+    transition: 1s;
+    width: 75%;
+    gap: 7%;
+    margin-bottom: 10%;
+  }
+  .contactPage {
+    transition: 1s;
+    height: auto;
+  }
+  .contactImage {
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10%;
+    height: auto;
+  }
+  .contactForm {
+    margin-top: 20%;
+    margin-bottom: 10%;
+  }
 }
