@@ -10,11 +10,11 @@ const TryFree = () => {
             <div className='mainTryFree'>
                 <div className='coverTryFree'>
                     <div className='titleTryFree position1TryFree'>¿Cómo me registro?</div>
-                    <div className='coverDescriptionTryFree'>
+                    <div className='coverDescriptionTryFree'> 
                         <div className='coverDescriptionTextTryFree'>
                             Para registrarte basta con dejar tu mail, nosotros te avisaremos
                             cuando HearBound esté listo. Además, serás recompensado con
-                            ventajas en la plataforma.
+                            ventajas en la plataforma. <br/>
                             Aparte de tener la oportunidad de ser una de las primeras personas en
                             probar y subir canciones.
                         </div>
