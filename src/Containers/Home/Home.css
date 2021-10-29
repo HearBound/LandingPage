@@ -1,357 +1,417 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .main {
-    width: 100%;
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
 }
 
-section{
-    height: 100vh;
-    scroll-snap-align: start; 
+section {
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
-.one { 
-    background-color: rgba(6, 75, 224, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.one {
+  background-color: rgba(6, 75, 224, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .titleMain {
-    margin-top: 5rem;
-    font-size: 5rem;
-    color: #F9B41F;
-    font-family: Coiny;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: black;
+  margin-top: 5rem;
+  font-size: 6rem;
+  color: #f9b41f;
+  font-family: Coiny;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .subtitleMain {
-    width: 23.5rem;
-    font-size: 2rem;
-    color: #ffff;
-    font-family: Coiny;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  width: 500px;
+  font-size: 2.3rem;
+  color: #ffff;
+  font-family: Coiny;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 4px 4px 1px rgba(6, 75, 224, 0.25);
 }
 
 .newsletterMain {
-    margin-top: 5rem;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsletterMain p {
+  text-align: center;
+  font-weight: bolder;
 }
 
-.formMain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+.formMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
-.emailMain input{
-    padding: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 0.5rem;
-    width: 15rem;
-} 
+.emailMain {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.emailMain input {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  width: 385px;
+  height: 2rem;
+}
 
 .mainButton {
-    cursor: pointer;
-    width: 10rem;
-    height: 3.5rem;
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffff;
-    font: bold;
-    font-family: Coiny;
-    background-color: #2091F9;
-} 
+  cursor: pointer;
+  width: 200px;
+  height: 4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font: bold;
+  font-family: Coiny;
+  background-color: #2091f9;
+}
 
-.three { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* .coverRegisterMainTryFree {
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  display: flex;
+}
+
+.coverRegisterInputTryFree {
+  background: #ffffff;
+  border: 2px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 2.5%;
+  width: 60%;
+  height: 4.5rem;
+}
+
+.coverRegisterButtonTryFree {
+  margin-left: 2%;
+  width: 30%;
+  height: 4.5rem;
+  background: #2091f9;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+} */
+
+.three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titleMainSection {
-    margin-top: 5%;
-    font-size: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  margin-top: 1%;
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
 }
 
 .titleLineBlue {
-    height: 0.4rem;
-    width: 50%;
-    border-radius: 0.2rem;
-    background-color: #3A5AFF;
+  height: 0.4rem;
+  width: 50%;
+  border-radius: 0.2rem;
+  background-color: #3a5aff;
 }
 
 .titleLinePurple {
-    height: 0.4rem;
-    width: 50%;
-    border-radius: 0.2rem;
-    background-color: #BD00FF;
+  height: 0.4rem;
+  width: 50%;
+  border-radius: 0.2rem;
+  background-color: #bd00ff;
 }
 
 .titleLineGreen {
-    height: 0.4rem;
-    width: 50%;
-    border-radius: 0.2rem;
-    background-color: #07FF02;
+  height: 0.4rem;
+  width: 50%;
+  border-radius: 0.2rem;
+  background-color: #07ff02;
 }
 
 .bodyMainSection {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
-.whiteSection {
-    height: 50%;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10%;
-    flex-wrap: wrap;
-    gap: 5%;
+.whiteSection,
+.graySection {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+.sectionImage {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sectionImage img {
+  width: 15rem;
+  height: 15rem;
 }
 
-.whiteSectionImage img {
-    width: 15rem;
-    height: 15rem;
+.whiteSectionText,
+.graySectionText {
+  width: 35%;
 }
 
-.whiteSectionText{
-    width: 25%;
+.whiteTitle,
+.grayTitle {
+  font-size: 30px;
+  font-family: Coiny;
+  font-weight: bold;
+  letter-spacing: 0.05em;
 }
 
-.whiteTitle{
-    font-family: Coiny;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.whiteParragraph{
-    text-align: justify;
+.whiteParragraph,
+.grayParragraph {
+  font-size: 22px;
+  text-align: left;
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 
 .graySection {
-    background-color: #F6F7FA;
-    height: 50%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    flex-wrap: wrap;
-    gap: 5%;
+  background-color: #f6f7fa;
 }
 
-.graySectionImage {
-    margin-right: 10%;
-}
-
-.graySectionImage img {
-    width: 15rem;
-    height: 15rem;
-}
-
-.graySectionText{
-    width: 25%;
-    text-align: right;
-}
-
-.grayTitle{
-    font-family: Coiny;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.four { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .five {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.six { 
-    display: flex;
-    flex-direction: column;
+.six {
+  display: flex;
+  flex-direction: column;
 }
 
 .testNow {
-    height: 40%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Coiny';
-    font-size: 2rem;
-    font-weight: bold;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Coiny";
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .testNow button {
-    width: 10rem;
-    background-color:  #3A5AFF;
-    border: none;
-    border-radius: 0.5rem;
-    padding: 0.6rem;
-    cursor: pointer;
-    color: #ffff;
-    font: bold;
-    font-family: Coiny;
-    box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+  width: 10rem;
+  background-color: #3a5aff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  color: #ffff;
+  font: bold;
+  font-family: Coiny;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .partners {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: 1.4rem;
-    font-weight: bold;
-    height: 35%;
-    width: 100%;
-    font-family: 'Open Sans';
-    background: linear-gradient(90deg, rgba(0, 245, 160, 0.4) 0%, rgba(0, 217, 245, 0.4) 100%);
-    border-top-left-radius: 4rem;
-    border-top-right-radius: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 35%;
+  width: 100%;
+  font-family: "Open Sans";
+  background: linear-gradient(
+    90deg,
+    rgba(0, 245, 160, 0.4) 0%,
+    rgba(0, 217, 245, 0.4) 100%
+  );
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 }
 
 .partners p {
-    width: 80%;
-    margin-left: 10%;
-    text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
 }
 
 .partnersImages {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
 }
 
 .partnersImages img {
-    cursor: pointer;
-    min-width: 6rem;
-    height: 6rem;
+  cursor: pointer;
+  min-width: 6rem;
+  height: 6rem;
 }
 
 .holded img {
-    cursor: pointer;
-    width: 2rem;
-    height: 2rem;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
 }
 
-@media (max-width: 1200px) {
-    .titleMainSection {
-        margin-top: 8%;
-    }
+@media (max-width: 1300px) {
+  .sectionImage {
+    width: 200px;
+  }
+  .sectionImage img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .whiteSectionText,
+  .graySectionText {
+    width: 550px;
+  }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
+  .one {
+    justify-content: start;
+  }
+  .titleMain {
+    font-size: 3rem;
+    margin-top: 50%;
+  }
 
-    .titleMain {
-        font-size: 3rem;
-    }
-    
-    .subtitleMain {
-        font-size: 1.5rem;
-    }
+  .subtitleMain {
+    font-size: 1.5rem;
+    width: 90%;
+  }
 
-    .titleMainSection {
-        margin-top: 10%;
-    }
+  .newsletterMain {
+    position: absolute;
+    bottom: 5%;
+  }
+  .newsletterMain p {
+    text-align: center;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .formMain {
+    flex-direction: column;
+    width: 100%;
+  }
+  .emailMain input {
+    width: 90%;
+  }
+  .emailMain,
+  .mainButton {
+    width: 90%;
+  }
+  .three,
+  .four,
+  .five,
+  .six {
+    height: auto;
+  }
+  .titleMainSection {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 36px;
+  }
+  .bodyMainSection {
+    height: auto;
+  }
+  .whiteSection {
+    margin-left: 5%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .whiteSection {
-        margin-left: 5%;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
-    }
+  .whiteSectionImage img {
+    width: 8rem;
+    height: 8rem;
+  }
+  .whiteParragraph,
+  .grayParragraph {
+    font-size: 20px;
+  }
+  .graySection {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  .sectionImage {
+    width: 100%;
+  }
 
-    .whiteSectionText {
-        width: 50%;
-    }
+  .whiteSectionText,
+  .graySectionText {
+    width: 100%;
+  }
+  .graySectionImage img {
+    width: 8rem;
+    height: 8rem;
+  }
 
-    .whiteSectionImage img{
-        width: 8rem;
-        height: 8rem;
-    }
+  .graySectionText,
+  .whiteSectionText {
+    width: 90%;
+  }
 
-    .graySection {
-        flex-direction: column-reverse;
-        text-align: center;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: center;
-    }
+  .testNow {
+    margin-top: 5%;
+    height: 30%;
+    font-size: 1.5rem;
+  }
 
-    .graySectionImage img{
-        width: 8rem;
-        height: 8rem;
-    }
+  .partners {
+    font-size: 1rem;
+  }
 
-    .graySectionText {
-        width: 50%;
-    }
-
-    .testNow {
-        margin-top: 5%;
-        height: 30%;
-        font-size: 1.5rem;
-    }
-
-    .partners {
-        font-size: 1rem;
-    }
-
-    .partnersImages img {
-        height: 3rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .titleMainSection {
-        margin-top: 18%;
-    }
-    
-    .whiteSectionText {
-        width: 80%;
-    }
-
-    .graySectionText {
-        width: 80%;
-    }
-
-    .testNow {
-        margin-top: 8%;
-        text-align: center;
-    }
+  .partnersImages img {
+    height: 3rem;
+  }
 }

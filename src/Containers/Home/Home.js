@@ -31,7 +31,7 @@ const Home = () => {
                     </div>
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
-                            <div className='whiteSectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                             <div className='whiteSectionText'>
@@ -56,11 +56,10 @@ const Home = () => {
                                     <p> Nuestra plataforma aprovecha el contenido estilo “TikTok” para que los oyentes descubran música de una forma más rápida y cómoda.
                                         <br></br>
                                         <br></br>
-                                        <br></br>
                                         Piensa en un “TikTok” donde entras a descubrir videoclips de nuevos artistas de tus géneros y estilos favoritos. </p>
                                 </div>
                             </div>
-                            <div className='graySectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                         </div>
@@ -73,7 +72,7 @@ const Home = () => {
                     </div>
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
-                            <div className='whiteSectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                             <div className='whiteSectionText'>
@@ -82,7 +81,6 @@ const Home = () => {
                                 </div>
                                 <div className='whiteParragraph'>
                                     <p>Una vez te descubran, podrán escucharte en las plataformas que tu elijas y así seguir creciendo como artista.
-                                        <br></br>
                                         <br></br>
                                         <br></br>
                                         También seguir tu perfil y redes sociales para no perderse nada... </p>
@@ -98,11 +96,10 @@ const Home = () => {
                                     <p> HearBound será Gratuito para todos los artistas, pero ofrecerá herramientas de pago, con las que podrás exprimir al 100% tu música. 
                                         <br></br>
                                         <br></br>
-                                        <br></br>
                                         Uses o no estas herramientas puedes enseñarle tu música a miles de personas que entran en nuestra plataforma para descubrirte.  </p>
                                 </div>
                             </div>
-                            <div className='graySectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                         </div>
@@ -115,7 +112,7 @@ const Home = () => {
                     </div>
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
-                            <div className='whiteSectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                             <div className='whiteSectionText'>
@@ -124,7 +121,6 @@ const Home = () => {
                                 </div>
                                 <div className='whiteParragraph'>
                                     <p>HearBound no es una plataforma de streaming, aquí no buscas canciones, aquí las descubres. 
-                                        <br></br>
                                         <br></br>
                                         <br></br>
                                         Los oyentes buscan descubrir música, esto permite a artistas crecer en un ecosistema creado por y para ellos </p>
@@ -140,7 +136,7 @@ const Home = () => {
                                     <p> Nuestro algoritmo lleva tu música a gente totalmente nueva, para nosotros las reproducciones no son lo importante. </p>
                                 </div>
                             </div>
-                            <div className='graySectionImage'>
+                            <div className='sectionImage'>
                                 <img src={Image}></img>
                             </div>
                         </div>
