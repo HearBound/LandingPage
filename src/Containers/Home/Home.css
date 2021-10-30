@@ -135,25 +135,22 @@ section {
   align-items: center;
   font-weight: bolder;
 }
-
-.titleLineBlue {
+.titleLineBlue,
+.titleLineGreen,
+.titleLinePurple {
   height: 0.4rem;
-  width: 50%;
+  width: 160px;
   border-radius: 0.2rem;
+}
+.titleLineBlue {
   background-color: #3a5aff;
 }
 
 .titleLinePurple {
-  height: 0.4rem;
-  width: 50%;
-  border-radius: 0.2rem;
   background-color: #bd00ff;
 }
 
 .titleLineGreen {
-  height: 0.4rem;
-  width: 50%;
-  border-radius: 0.2rem;
   background-color: #07ff02;
 }
 
@@ -239,7 +236,8 @@ section {
 }
 
 .testNow button {
-  width: 10rem;
+  width: 280px;
+  height: 65px;
   background-color: #3a5aff;
   border: none;
   border-radius: 0.5rem;
@@ -248,6 +246,7 @@ section {
   color: #ffff;
   font: bold;
   font-family: Coiny;
+  font-size: 25px;
   box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -255,46 +254,45 @@ section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 1.4rem;
-  font-weight: bold;
-  height: 35%;
+  height: auto;
   width: 100%;
-  font-family: "Open Sans";
   background: linear-gradient(
     90deg,
     rgba(0, 245, 160, 0.4) 0%,
     rgba(0, 217, 245, 0.4) 100%
   );
-  border-top-left-radius: 4rem;
-  border-top-right-radius: 4rem;
 }
 
 .partners p {
-  width: 80%;
-  margin-left: 10%;
+  margin: 4% auto;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 150%;
   text-align: center;
+  align-items: center;
+  letter-spacing: 0.05em;
+  width: 80%;
 }
 
 .partnersImages {
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10%;
+  justify-content: space-between;
+  margin-bottom: 4%;
 }
 
 .partnersImages img {
   cursor: pointer;
-  min-width: 6rem;
-  height: 6rem;
+  width: 200px;
 }
 
 .holded img {
   cursor: pointer;
-  width: 2rem;
-  height: 2rem;
+  width: 250px;
 }
 
 @media (max-width: 1300px) {
@@ -354,26 +352,35 @@ section {
     height: auto;
   }
   .titleMainSection {
-    margin-top: 10%;
+    margin-top: 3%;
     text-align: center;
     font-size: 36px;
   }
   .bodyMainSection {
     height: auto;
   }
-  .whiteSection {
-    margin-left: 5%;
+  .whiteSection,
+  .graySection {
     flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
+    margin: 5% auto;
   }
-
+  .whiteTitle,
+  .grayTitle {
+    text-align: center;
+  }
+  .whiteSectionImage,
+  .graySectionImage,
+  .sectionImage {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
   .whiteSectionImage img {
     width: 8rem;
     height: 8rem;
   }
   .whiteParragraph,
   .grayParragraph {
+    text-align: left;
     font-size: 20px;
   }
   .graySection {
@@ -390,6 +397,7 @@ section {
   .whiteSectionText,
   .graySectionText {
     width: 100%;
+    margin: 10% auto;
   }
   .graySectionImage img {
     width: 8rem;
@@ -401,17 +409,25 @@ section {
     width: 90%;
   }
 
-  .testNow {
-    margin-top: 5%;
-    height: 30%;
+  .testNow p {
+    margin: 5%;
+    height: auto;
     font-size: 1.5rem;
+    text-align: center;
+  }
+  .testNow button {
+    margin: 7% auto;
   }
 
-  .partners {
-    font-size: 1rem;
+  .partnersImages {
+    flex-direction: column;
+    margin-top: 15%;
   }
-
   .partnersImages img {
-    height: 3rem;
+    height: auto;
+    margin-bottom: 20%;
+  }
+  .holded {
+    margin-right: 8%;
   }
 }
