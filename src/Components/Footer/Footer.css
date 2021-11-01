@@ -1,190 +1,172 @@
 footer {
-    height: 25vh;
-    background: #212529;
-    color: #fff;
-    z-index: 10000;
+  height: auto;
+  background: #212529;
+  color: #fff;
+  z-index: 100;
 }
 
 .footer {
-    height: 90%;
-    width: 80%;
-    margin-left: 10%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.routeFooter{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 12%;
+.routeFooter {
+  margin-top: 2%;
+  margin-left: 10%;
+  height: auto;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.routeFooter div {
+  margin-top: 7%;
 }
 
-
-.contactFooter{
-    height: 100%;
-    width: 33%;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 8%;
+.contactFooter {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .contactFooter p {
-    margin-top: 9%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
-.contactFooter form{
-    height: 40%;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 15%;
+.contactFooter form {
+  width: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.contactFooter form input{ 
-    border: none;
-    outline: none;
-    border-radius: 0.3rem;
-    padding: 0.5rem;
+.contactFooter form input {
+  border: none;
+  outline: none;
+  margin-bottom: 5%;
+  width: 353px;
+  height: 64px;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.inputFooter {
+  text-indent: 20px;
 }
 
 .suscribeFooter {
-    background-color: #73FFE6;
+  background: #2091f9;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
 }
 
 .midFooter {
-    height: 100%;
-    width: 33%;
+  display: flex;
+  height: 100%;
+  width: 33%;
 }
 
 .socialFooter {
-    height: 90%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .socialImages {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10%;
+  margin-top: 12%;
 }
 
 .socialCircle {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    background-color: #ffff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #ffff;
 }
 
 .textFooter {
-    bottom: 0;
-    position: relative;
-    height: 10%;
-    text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 95%;
+  bottom: 0;
+  position: relative;
+  height: auto;
+  text-align: center;
 }
 
-
-@media (max-width: 950px) {
-    .footer {
-        width: 100%;
-        flex-direction: column-reverse;
-        align-items: space-between;
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    footer {
-        height: 50vh;
-    }
-
-    .routeFooter {
-        width: 80%;
-        flex-direction: row;
-    }
-
-    .contactFooter {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-    }
-
-    .contactFooter form{ 
-        display: flex;
-        margin-right: 40%;
-        justify-content: center;
-    }
+@media (max-width: 1200px) {
+  .contactFooter {
+    margin-right: 4%;
+  }
 }
 
-@media (max-width: 800px) {
-    .footer {
-        width: 100%;
-        flex-direction: column-reverse;
-        align-items: space-between;
-        justify-content: center;
-        margin-left: 0;
-    }
+@media (max-width: 1000px) {
+  .footer {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: space-between;
+    justify-content: center;
+  }
 
-    footer {
-        height: 60vh;
-    }
+  .routeFooter {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%;
+    margin-left: 10%;
+  }
+  .routeFooter div {
+    width: 20%;
+    font-size: 14px;
+    font-weight: normal;
+  }
 
-    .routeFooter {
-        width: 100%;
-        flex-direction: row;
-    }
+  .contactFooter,
+  .midFooter,
+  .socialFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .socialImages {
+    justify-content: center;
+    margin-top: 7%;
+  }
 
-    .footer {
-        font-size: 0.8rem;
-    }
-
-    .midFooter{
-        width: 100%;
-    }
-
-    .contactFooter {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-    }
-
-    .contactFooter form{ 
-        width: 100%;
-        display: flex;
-        margin-right: 40%;
-        justify-content: center;
-    }   
-}
-
-@media (max-width: 500px) {
-    .routeFooter {
-        font-size: 0.6rem;
-        max-width: 100%;
-        justify-content: center;
-        flex-wrap: nowrap;
-    }
-
-    .contactFooter{
-        margin-right: 40%;
-    }
-
-    .contactFooter p {
-        width: 10rem;
-        margin-left: 40%;
-        font-size: 0.6rem;
-        text-align: center;
-    }
+  .contactFooter form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    gap: 3%;
+  }
+  .contactFooter form input {
+    height: 52px;
+    font-size: 14px;
+  }
+  .contactFooter form .inputFooter {
+    width: 60%;
+  }
+  .contactFooter form .suscribeFooter {
+    width: 30%;
+  }
+  .textFooter {
+    margin-bottom: 3%;
+    margin-top: 10%;
+  }
 }

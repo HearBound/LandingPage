@@ -13,7 +13,7 @@ const Footer = () => {
                 </div>
                 <div className='midFooter'>
                     <div className='socialFooter'>
-                        <div>Síguenos en nuestras redes sociales</div>
+                        <div className='socialText'>Síguenos en nuestras redes sociales</div>
                         <div className='socialImages'>
                             <div className='socialCircle'></div>
                             <div className='socialCircle'></div>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className='contactFooter'>
                     <p>No te pierdas nada. Suscríbete!</p>
                     <form>
-                        <input name='email' type='email' placeholder='Email' />
+                        <input name='email' className='inputFooter' type='email' placeholder='Email' />
                         <input name='submit' className='suscribeFooter' type='submit' value='Suscríbete' />
                     </form>
                 </div>

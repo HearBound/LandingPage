@@ -1,197 +1,201 @@
-*{
-    z-index: 3;
-}
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titleAbout {
-    margin-top: 5%;
-    padding: 0;
-    width: 60%;
-    text-align: center;
-    font-family: Coiny;
+  margin-top: 5%;
+  padding: 0;
+  width: 60%;
+  text-align: center;
+  font-family: Coiny;
 }
-.titleAbout h2{
-    font-size: 4.2rem;
-    margin: 0;
-    margin-top: 4%;
+.titleAbout h2 {
+  font-size: 4.2rem;
+  margin: 0;
+  margin-top: 4%;
 }
 
 .decorationAbout {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%)
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.38%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
 }
 
 .textAbout {
-    margin-top: 2%;
-    margin-bottom: 0;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.9rem;
-    font-family: 'Open Sans';
-    color: #383838;
-    font-weight: 900;
-    z-index: 3;
-    letter-spacing: 0.05em;
-    line-height: 150%;
+  margin-top: 2%;
+  margin-bottom: 0;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.9rem;
+  font-family: "Open Sans";
+  color: #383838;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  line-height: 150%;
 }
 
 .team {
-    padding: 0;
-    z-index: 3;
-    width:60%;
+  padding: 0;
+  width: 60%;
 }
 
 .titleTeam {
-    margin-top: 10%;
-    font-weight: bold;
-    font-size: 3.1rem;
-    font-family: Coiny;
-    text-align: center;
+  margin-top: 10%;
+  font-weight: bold;
+  font-size: 3.1rem;
+  font-family: Coiny;
+  text-align: center;
 }
 
 .cards {
-    margin-top: 5%;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: space-between;
-    justify-content: center;
-    gap: 11%;
+  margin-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: space-between;
+  justify-content: center;
+  gap: 11%;
 }
 
 .endingTextAbout {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.6rem;
-    font-family: 'Open Sans';
-    color: #383838;
-    font-weight: 900;
-    line-height: 150%;
-    letter-spacing: 0.05em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Open Sans";
+  color: #383838;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 0.05em;
 }
 
-.endingTextAbout p{
-    margin-bottom: 0;
+.endingTextAbout p {
+  margin-bottom: 0;
 }
 
 .testNowAbout {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.testNowAbout div{
-    font-family: Coiny;
-    font-size: 2.5rem;
+.testNowAbout div {
+  font-family: Coiny;
+  font-size: 2.5rem;
 }
 
 .testNowAbout button {
-    margin-top: 8%;
-    margin-bottom: 20%;
-    width: 18rem;
-    height: 6rem;
-    background-color:  #3A5AFF;
-    border: none;
-    border-radius: 1rem;
-    padding: 1rem;
-    cursor: pointer;
-    color: #fff;
-    font: bold;
-    font-family: Coiny;
-    font-size: 1.8rem;
-    box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
-    z-index: 3;
+  margin-top: 8%;
+  margin-bottom: 20%;
+  width: 18rem;
+  height: 6rem;
+  background-color: #3a5aff;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: #fff;
+  font: bold;
+  font-family: Coiny;
+  font-size: 1.8rem;
+  box-shadow: inset 0px -4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .colorBlueAbout {
-    position: absolute;
-    margin-top: 18%;
-    width: 200%;
-    height: 80vh;
-    background: linear-gradient(90deg, rgba(0, 245, 160, 0.2) 0%, rgba(0, 217, 245, 0.2) 100%);
-    border-radius: 41% 59% 65% 35% / 40% 42% 58% 60% ;
-    z-index: 1;
+  position: absolute;
+  margin-top: 18%;
+  width: 200%;
+  height: 80vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 245, 160, 0.2) 0%,
+    rgba(0, 217, 245, 0.2) 100%
+  );
+  border-radius: 41% 59% 65% 35% / 40% 42% 58% 60%;
+  z-index: -1;
 }
 
-.colorPurpleAbout{
-    position: absolute;
-    margin-top: 110%;
-    width: 200%;
-    height: 80vh;
-    background: linear-gradient(90deg, rgba(148, 0, 211, 0.2) 0%, rgba(75, 0, 130, 0.2) 100%);
-    border-radius: 50% 50% 65% 35% / 15% 16% 84% 85% ;
-    z-index: 1;
+.colorPurpleAbout {
+  position: absolute;
+  margin-top: 110%;
+  width: 200%;
+  height: 80vh;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 0, 211, 0.2) 0%,
+    rgba(75, 0, 130, 0.2) 100%
+  );
+  border-radius: 50% 50% 65% 35% / 15% 16% 84% 85%;
+  z-index: -1;
 }
 
 @media (max-width: 1200px) {
-    .titleAbout{
-        margin-top: 10%;
-        width: 80%;
-    }
-    .team {
-        width:80%;
-    }
-    
+  .titleAbout {
+    margin-top: 10%;
+    width: 80%;
+  }
+  .team {
+    width: 80%;
+  }
 }
 
 @media (max-width: 600px) {
-    .titleAbout{
-        width: 90%;
-        margin-top: 20%;
-    }
-    .titleAbout h2{
-        font-size: 2.2rem;
-    }
-    .team {
-        width:90%;
-    }
-    .titleTeam {
-        font-size: 1.7rem;
-    }
-    .cards {
-        gap: 8%;
-    }
-    
+  .titleAbout {
+    width: 90%;
+    margin-top: 20%;
+  }
+  .titleAbout h2 {
+    font-size: 2.2rem;
+  }
+  .team {
+    width: 90%;
+  }
+  .titleTeam {
+    font-size: 1.7rem;
+  }
+  .cards {
+    gap: 8%;
+  }
 
-    .textAbout {
-        width: 80%;
-        font-size: 1.1rem;
-    }
+  .textAbout {
+    width: 80%;
+    font-size: 1.1rem;
+  }
 
-    .endingTextAbout {
-        width: 90%;
-    }
+  .endingTextAbout {
+    width: 90%;
+  }
 
-    .testNowAbout {
-        margin-top: 10%;
-    }
+  .testNowAbout {
+    margin-top: 10%;
+  }
 
-    .testNowAbout div{
-        font-size: 1.4rem;
-    }
-    .colorBlueAbout, .colorPurpleAbout{
-        display: none;
-    }
-    
+  .testNowAbout div {
+    font-size: 1.4rem;
+  }
+  .colorBlueAbout,
+  .colorPurpleAbout {
+    display: none;
+  }
 }
-

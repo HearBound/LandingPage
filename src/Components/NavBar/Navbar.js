@@ -1,11 +1,9 @@
 import './Navbar.css'
 import Logo from '../../images/Hearbound.png';
-import { useHistory } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import React from 'react';
 
 const Navbar = () => {
-
-    const history = useHistory();
 
     let hamburgerNavBar = React.createRef();
     let overlay = React.createRef();
@@ -29,36 +27,50 @@ const Navbar = () => {
         <>
             <div id="overlay" ref={overlay}>
                 <div className='overlayLinks'>
-                    <div onClick={() => history.push('/')}>
+                    <NavLink to='/home' activeClassName='active'>
                         <div className='overlaySelector'></div>
                         <h1 className='overlayTitle'>Home</h1>
-                    </div>
+                    </NavLink>
 
-                    <div onClick={() => history.push('/about')}>
+                    <NavLink to='/about' activeClassName='active'>
                         <div className='overlaySelector'></div>
                         <h1 className='overlayTitle'>Sobre Nosotros</h1>
-                    </div>
-                    <div onClick={() => history.push('/contact')}>
+                    </NavLink>
+                    <NavLink to='/contact' activeClassName='active'>
                         <div className='overlaySelector'></div>
                         <h1 className='overlayTitle'>Contacto</h1>
-                    </div>
+                        </NavLink>
+                    <NavLink to='/new' activeClassName='active'>
+                        <button className='overlayButton'>Pruebalo Gratis</button>
+                    </NavLink>
+                    
                 </div>
-                <button className='overlayButton'>Pruebalo Gratis</button>
+                
             </div>
             <div className='navBar'>
-                <div className='logoNavBar' onClick={() => history.push('/')}>
+            <NavLink to='/' activeClassName='active'>
+                <div className='logoNavBar'>
                     <img src={Logo}></img>
                 </div>
+                </NavLink>
                 <div className='routeNavBar'>
                     <div className='textNavBar'>
-                        <div className="homeNavBar" onClick={() => history.push('/')}>Home</div>
-                        <div className="aboutNavBar" onClick={() => history.push('/about')}>Sobre Nosotros</div>
-                        <div className="contactNavBar" onClick={() => history.push('/contact')}>Contacto</div>
+                    <NavLink to='/home' activeClassName='active'>
+                        <div className="homeNavBar">Home</div>
+                    </NavLink>
+                    <NavLink to='/about' activeClassName='active'>
+                        <div className="aboutNavBar" >Sobre Nosotros</div>
+                    </NavLink>
+                    <NavLink to='/contact' activeClassName='active'>
+                        <div className="contactNavBar">Contacto</div>
+                    </NavLink>
                     </div>
-                    <div className='buttonNavBar'>
-                        <div>¿Eres músico?</div>
-                        <button onClick={() => history.push('/new')}>Pruébalo Gratis</button>
-                    </div>
+                    <NavLink to='/new' activeClassName='active'>
+                        <div className='buttonNavBar'>
+                            <div>¿Eres músico?</div>
+                            <button >Pruébalo Gratis</button>
+                        </div>
+                    </NavLink>
                 </div>
                 <div id="hamburger" ref={hamburgerNavBar} onClick={handleClick}>
                     <div></div>
