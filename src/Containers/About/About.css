@@ -1,7 +1,12 @@
 body {
   overflow-x: hidden;
 }
-
+#showCards {
+  display: flex;
+}
+#showCarousel {
+  display: none;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -160,6 +165,17 @@ body {
   }
 }
 
+@media (max-width: 900px) {
+  #showCards {
+    display: none;
+  }
+  #showCarousel {
+    margin-top: 5%;
+    display: inline;
+    padding-top: 50%;
+  }
+}
+
 @media (max-width: 600px) {
   .titleAbout {
     width: 90%;
@@ -173,9 +189,7 @@ body {
   }
   .titleTeam {
     font-size: 1.7rem;
-  }
-  .cards {
-    gap: 8%;
+    margin-bottom: 10%;
   }
 
   .textAbout {
@@ -184,6 +198,7 @@ body {
   }
 
   .endingTextAbout {
+    margin-top: 10%;
     width: 90%;
   }
 

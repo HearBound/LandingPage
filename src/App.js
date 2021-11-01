@@ -4,6 +4,7 @@ import Home from './Containers/Home/Home.js';
 import About from './Containers/About/About';
 import Contact from './Containers/Contact/Contact';
 import TryFree from './Containers/TryFree/TryFree';
+import Carousel from './Components/Carousel/Carousel';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/about' component={About} exact/>
         <Route path='/contact' component={Contact} exact/>
         <Route path='/new' component={TryFree} exact/>
+        <Route path='/carousel' component={Carousel} exact/>
       </Switch>
     </BrowserRouter>
   );

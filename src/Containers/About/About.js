@@ -3,6 +3,7 @@ import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
 import TeamCard from '../../Components/TeamCard/TeamCard';
 import Image from '../../images/desktop.png';
+import Carousel from '../../Components/Carousel/Carousel';
 
 const About = () => {
     return (
@@ -30,13 +31,18 @@ const About = () => {
 
                 <div className='team'>
                     <div className='titleTeam'>Este es nuestro equipo</div>
-                    <div className='cards'>
+                    {/* Show carousel just  in Desktop format */}
+                    <div className='cards' id='showCards'>
                         <TeamCard image={Image} name='Jaime Martinez' job='CEO' />
                         <TeamCard image={Image} name='William Sargisson' job='COO'/>
                         <TeamCard image={Image} name='Gregorio Bujor' job='CTO'/>
                         <TeamCard image={Image} name='Angel Rodriguez' job='Subdirector de desarrollo'/>
                         <TeamCard image={Image} name='David Martinez' job='Programador'/>
 
+                    </div>
+                    {/* Show carousel just  in Movil format */}
+                    <div id='showCarousel'>
+                    <Carousel/>
                     </div>
                 </div>
                 <div className='endingTextAbout'>

@@ -99,8 +99,6 @@ footer {
 }
 
 .textFooter {
-  margin-top: 2%;
-  margin-bottom: 1%;
   width: 95%;
   bottom: 0;
   position: relative;
@@ -166,7 +164,7 @@ footer {
     width: 30%;
   }
   .textFooter {
-    margin-bottom: 3%;
+    padding-bottom: 3%;
     margin-top: 10%;
   }
 }
