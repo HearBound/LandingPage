@@ -7,6 +7,13 @@ import Holded from '../../images/holded.png';
 import Res from '../../images/res.png';
 
 const Home = () => {
+
+    let email = '';
+
+    const RegisterData = () => {
+        console.log(email);
+    }
+
     return (
         <>
             <Navbar />
@@ -18,9 +25,9 @@ const Home = () => {
                         <p> A que esperas? Registrate dejando tu mail aqui </p>
                         <div className='formMain'>
                             <div className='emailMain'>
-                                <input name='email' type='email' placeholder='Escribe aqui tu mail y empieza ahora' />
+                                <input onInput={(e) => email = e.target.value} name='email' type='email' placeholder='Escribe aqui tu mail y empieza ahora' />
                             </div>
-                            <div className='mainButton'>Registrárme</div>
+                            <div className='mainButton' onClick={() => RegisterData()}>Registrárme</div>
                         </div>
                     </div>
                 </section>

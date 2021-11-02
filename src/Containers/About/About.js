@@ -4,8 +4,11 @@ import Navbar from '../../Components/NavBar/Navbar';
 import TeamCard from '../../Components/TeamCard/TeamCard';
 import Image from '../../images/desktop.png';
 import Carousel from '../../Components/Carousel/Carousel';
+import { useHistory } from 'react-router';
 
 const About = () => {
+
+    const history = useHistory();
     return (
         <>
             <Navbar />
@@ -53,7 +56,7 @@ const About = () => {
                 </div>
                 <div className='testNowAbout'>
                     <div>¿Imaginas la vida sin musica?</div>
-                    <button>Pruébalo gratis</button>
+                    <button onClick={() => history.push('/new')}>Pruébalo gratis</button>
                 </div>
                 
             </div>
