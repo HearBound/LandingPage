@@ -432,3 +432,16 @@ section {
     margin-right: 8%;
   }
 }
+
+@media (max-width: 600px) {
+  .titleMain{
+    font-size: 42px;
+  }
+  .subtitleMain{
+    margin-top: 1%;
+    font-size:18px;
+  }
+  .newsletterMain p{
+    font-size:14px;
+  }
+}
