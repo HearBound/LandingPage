@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import CookieConsent from "react-cookie-consent";
 import Home from './Containers/Home/Home.js';
 import About from './Containers/About/About';
 import Contact from './Containers/Contact/Contact';
@@ -17,6 +18,7 @@ function App() {
         <Route path='/new' component={TryFree} exact/>
         <Route path='/carousel' component={Carousel} exact/>
       </Switch>
+      <CookieConsent enableDeclineButton flipButtons>This website uses cookies to enhance the user experience.</CookieConsent>
     </BrowserRouter>
   );
 }
