@@ -4,6 +4,16 @@ import Navbar from '../../Components/NavBar/Navbar';
 import Image from '../../images/desktop.png';
 
 const Contact = () => {
+
+    let name = '';
+    let email = '';
+    let message = '';
+
+    const RegisterData = () => {
+        console.log(name);
+        console.log(email);
+        console.log(message);
+    }
     return (
         <>
             <Navbar />
@@ -15,10 +25,10 @@ const Contact = () => {
                             <img src={Image} alt="placeholder" />
                         </div>
                         <div className='contactInput'> 
-                                <input type='text' className='contactName' placeholder='Escriba su nombre' />
-                                <input type='email' className='contactEmail' placeholder='Correo Electronico'/>
-                                <textarea className='contactMessage' placeholder='Escriba un mensaje...' />
-                                <button >Enviar Mensaje</button>
+                                <input onInput={(e) => name = e.target.value} type='text' className='contactName' placeholder='Escriba su nombre' />
+                                <input onInput={(e) => email = e.target.value} type='email' className='contactEmail' placeholder='Correo Electronico'/>
+                                <textarea onInput={(e) => message = e.target.value} className='contactMessage' placeholder='Escriba un mensaje...' />
+                                <button onClick={() => RegisterData()}>Enviar Mensaje</button>
                         </div>
                     </div>
                 </div>
