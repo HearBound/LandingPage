@@ -70,15 +70,14 @@ a {
   transition: 1s;
   background-color: #3a5aff;
   border: none;
-  border-radius: 0.5rem;
   width: 160px;
   padding: 0.8rem;
   cursor: pointer;
   color: #ffff;
   font: bold;
   font-family: Coiny;
-  -webkit-box-shadow: 0px 4px 0px 0px #1814ff;
-  box-shadow: 0px 4px 0px 0px #1814ff;
+  box-shadow: inset 0px -4px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
 }
 
 .buttonNavBar button:hover {

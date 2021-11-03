@@ -18,7 +18,7 @@ function App() {
         <Route path='/new' component={TryFree} exact/>
         <Route path='/carousel' component={Carousel} exact/>
       </Switch>
-      <CookieConsent enableDeclineButton flipButtons>This website uses cookies to enhance the user experience.</CookieConsent>
+      <CookieConsent style={{ background: "#2B373B" }} enableDeclineButton flipButtons>Esta web usa cookies para mejorar la experiencia del usuario.</CookieConsent>
     </BrowserRouter>
   );
 }

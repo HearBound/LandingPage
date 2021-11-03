@@ -5,6 +5,12 @@ import Image from '../../images/desktop.png';
 import Amazon from '../../images/amazon.png';
 import Holded from '../../images/holded.png';
 import Res from '../../images/res.png';
+import mockup1 from '../../images/mockup1.png'
+import mockup2 from '../../images/mockup2.png'
+import mockup3 from '../../images/mockup3.png'
+import mockup4 from '../../images/mockup4.png'
+import mockup5 from '../../images/mockup5.png'
+import mockup6 from '../../images/mockup6.png'
 
 const Home = () => {
     return (
@@ -32,7 +38,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup4}></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -40,7 +46,6 @@ const Home = () => {
                                 </div>
                                 <div className='whiteParragraph'>
                                     <p>Usar HearBound es sencillo, solo tienes que subir tu canción y elegir a tu público ideal.
-                                        <br></br>
                                         <br></br>
                                         <br></br>
                                         Rock, instrumental, rap, flamenco... sea lo que sea, aquí encontraras a tu público. </p>
@@ -73,7 +78,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup3}></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -100,7 +105,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup6}></img>
                             </div>
                         </div>
                     </div>
@@ -113,31 +118,32 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup2}></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
-                                    Deja que te descubran
+                                No son solo reproducciones, sino nuevos oyentes 
                                 </div>
                                 <div className='whiteParragraph'>
-                                    <p>HearBound no es una plataforma de streaming, aquí no buscas canciones, aquí las descubres. 
-                                        <br></br>
-                                        <br></br>
-                                        Los oyentes buscan descubrir música, esto permite a artistas crecer en un ecosistema creado por y para ellos </p>
+                                    
+                                    <p> Nuestro algoritmo lleva tu música a gente totalmente nueva, para nosotros las reproducciones no son lo importante. </p>
                                 </div>
                             </div>
                         </div>
                         <div className='graySection'>
                             <div className='graySectionText'>
                                 <div className='grayTitle'>
-                                    No son solo reproducciones, sino nuevos oyentes 
+                                Deja que te descubran
                                 </div>
                                 <div className='grayParragraph'>
-                                    <p> Nuestro algoritmo lleva tu música a gente totalmente nueva, para nosotros las reproducciones no son lo importante. </p>
+                                HearBound no es una plataforma de streaming, aquí no buscas canciones, aquí las descubres. 
+                                        <br></br>
+                                        <br></br>
+                                        Los oyentes buscan descubrir música, esto permite a artistas crecer en un ecosistema creado por y para ellos 
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup5}></img>
                             </div>
                         </div>
                     </div>
