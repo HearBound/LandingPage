@@ -11,30 +11,23 @@ import mockup3 from '../../images/mockup3.png'
 import mockup4 from '../../images/mockup4.png'
 import mockup5 from '../../images/mockup5.png'
 import mockup6 from '../../images/mockup6.png'
+import { useHistory } from 'react-router';
 
 const Home = () => {
 
-    let email = '';
-
-    const RegisterData = () => {
-        console.log(email);
-    }
+    const history = useHistory();
 
     return (
         <>
             <Navbar />
             <div className='main'>
                 <section className='one'>
+                    <div className='principal'>
                     <div className='titleMain'>HEARBOUND</div>
                     <div className='subtitleMain'> <p>  La puerta que une a artistas y oyentes de todo el mundo. </p> </div>
                     <div className='newsletterMain'>
-                        <p> A que esperas? Registrate dejando tu mail aqui </p>
-                        <div className='formMain'>
-                            <div className='emailMain'>
-                                <input onInput={(e) => email = e.target.value} name='email' type='email' placeholder='Escribe aqui tu mail y empieza ahora' />
-                            </div>
-                            <div className='mainButton' onClick={() => RegisterData()}>Registrárme</div>
-                        </div>
+                    <button onClick={() => history.push('/new')} class='mainButton'>Pruébalo Gratis</button>
+                    </div>
                     </div>
                 </section>
                 <section className='three'>
@@ -52,7 +45,7 @@ const Home = () => {
                                     Te lo ponemos facil
                                 </div>
                                 <div className='whiteParragraph'>
-                                    <p>Usar HearBound es sencillo, solo tienes que subir tu canción y elegir a tu público ideal.
+                                    <p>Usar <span>HearBound</span>  es sencillo, solo tienes que subir tu canción y elegir a tu público ideal.
                                         <br></br>
                                         <br></br>
                                         Rock, instrumental, rap, flamenco... sea lo que sea, aquí encontraras a tu público. </p>
@@ -163,11 +156,15 @@ const Home = () => {
                     <div className='partners'>
                         <div className='partnersText'><p>Queremos dar también las gracias a nuestros partners y colaboradores, como espacioRES, que nos ayudan día a día a llevar este proyecto adelante.  </p></div>
                         <div className='partnersImages'>
+                            <a href='https://www.espaciores.org/'>
                             <img src={Res} />
+                            </a>
+                            <a href='https://www.aws.amazon.com/'>
                             <img src={Amazon} />
-                            <div className='holded' >
+                            </a>
+                            <a href='https://www.holded.com/' className='holded'>
                                 <img src={Holded} />
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <Footer />

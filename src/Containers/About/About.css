@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color: #f6f7fa;
 }
 #showCards {
   display: flex;
@@ -74,7 +75,7 @@ body {
   flex-flow: row wrap;
   align-items: space-between;
   justify-content: center;
-  gap: 11%;
+  gap: 16%;
 }
 
 .endingTextAbout {

@@ -1,8 +1,10 @@
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
 import './TryFree.css';
+import { useHistory } from 'react-router';
 
 const TryFree = () => {
+    const history = useHistory();
     return (
         <>
             <Navbar />
@@ -37,7 +39,7 @@ const TryFree = () => {
                     <div className='title2TryFree'>Dudas? Algunas preguntas? Sea lo que sea aquí<br/> estamos :)</div>
                     <div className='coverDescriptionTryFree'>
                         <form className='coverRegisterContactTryFree'>
-                            <input type="submit" value="Contacto" className='coverRegisterButtonContactTryFree'/>
+                            <input onClick={() => history.push('/contact')} type="submit" value="Contacto" className='coverRegisterButtonContactTryFree'/>
                         </form>
                     </div>
                 </div>

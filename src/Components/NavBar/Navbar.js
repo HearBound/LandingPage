@@ -47,6 +47,7 @@ const Navbar = () => {
                 </div>
                 
             </div>
+            <nav>
             <div className='navBar'>
             <NavLink to='/' activeClassName='active'>
                 <div className='logoNavBar'>
@@ -76,6 +77,7 @@ const Navbar = () => {
                     <div></div>
                 </div>
             </div>
+            </nav>
         </>
     );
 }

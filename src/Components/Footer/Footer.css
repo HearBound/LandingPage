@@ -14,8 +14,8 @@ footer {
 }
 
 .routeFooter {
-  margin-top: 2%;
-  margin-left: 10%;
+  margin-left: 5%;
+  margin-bottom: 2%;
   height: auto;
   width: 33%;
   display: flex;
@@ -23,14 +23,17 @@ footer {
   flex-direction: column;
 }
 .routeFooter div {
-  margin-top: 7%;
+  margin-top: 8%;
+}
+.routeFooter div:hover {
+  cursor: pointer;
 }
 
 .contactFooter {
   height: 100%;
   width: 33%;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -72,6 +75,12 @@ footer {
   display: flex;
   height: 100%;
   width: 33%;
+  margin-right: 6%;
+}
+.socialText {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialFooter {
@@ -79,27 +88,21 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .socialImages {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 10%;
   margin-top: 12%;
 }
 
-.socialCircle {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #ffff;
-}
-
 .textFooter {
-  width: 95%;
+  width: 100%;
   bottom: 0;
   position: relative;
   height: auto;
@@ -109,6 +112,15 @@ footer {
 @media (max-width: 1200px) {
   .contactFooter {
     margin-right: 4%;
+  }
+  .contactFooter form {
+    width: auto;
+  }
+
+  .contactFooter form input {
+    margin-bottom: 4%;
+    width: 280px;
+    height: 54px;
   }
 }
 
@@ -125,7 +137,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 6%;
-    margin-left: 10%;
   }
   .routeFooter div {
     width: 20%;
@@ -140,6 +151,7 @@ footer {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-left: 0;
   }
   .socialImages {
     justify-content: center;
