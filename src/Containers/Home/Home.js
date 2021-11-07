@@ -9,7 +9,6 @@ import mockup2 from '../../images/mockup2.png'
 import mockup3 from '../../images/mockup3.png'
 import mockup4 from '../../images/mockup4.png'
 import mockup8 from '../../images/mockup8.png'
-import mockup6 from '../../images/mockup6.png'
 import mockup7 from '../../images/mockup7.png'
 import { useHistory } from 'react-router';
 
