@@ -23,11 +23,11 @@ const Carousel = () => {
     return(
         <>
          <Slider {...settings}>
-        <TeamCard image={Jaime} name='Jaime Martinez' job='CEO' />
-        <TeamCard image={Moai} name='William Sargisson' job='COO'/>
-        <TeamCard image={Goyo} name='Gregorio Bujor' job='CTO'/>
-        <TeamCard image={Angel} name='Angel Rodriguez' job='Subdirector de desarrollo'/>
-        <TeamCard image={David} name='David Martinez' job='Programador'/>
+        <TeamCard image={Jaime} name='Jaime Martinez' job='CEO'  alt='#'/>
+        <TeamCard image={Moai} name='William Sargisson' job='COO' alt='#'/>
+        <TeamCard image={Goyo} name='Gregorio Bujor' job='CTO' alt='#'/>
+        <TeamCard image={Angel} name='Angel Rodriguez' job='Subdirector de desarrollo' alt='#'/>
+        <TeamCard image={David} name='David Martinez' job='Programador' alt='#'/>
     </Slider>
     </>
         )

@@ -37,7 +37,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={mockup4}></img>
+                                <img src={mockup4} alt='#'></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -64,7 +64,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={mockup7}></img>
+                                <img src={mockup7} alt='#'></img>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={mockup3}></img>
+                                <img src={mockup3} alt='#'></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -104,7 +104,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={mockup9}></img>
+                                <img src={mockup9} alt='#'></img>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img className='mockup2' src={mockup2}></img>
+                                <img className='mockup2' src={mockup2} alt='#'></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -142,7 +142,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img className='mockup8' src={mockup8}></img>
+                                <img className='mockup8' src={mockup8} alt='#'></img>
                             </div>
                         </div>
                     </div>
@@ -156,13 +156,13 @@ const Home = () => {
                         <div className='partnersText'><p>Queremos dar también las gracias a nuestros partners y colaboradores, como espacioRES, que nos ayudan día a día a llevar este proyecto adelante.  </p></div>
                         <div className='partnersImages'>
                             <a href='https://www.espaciores.org/'>
-                            <img src={Res} />
+                            <img src={Res} alt='#'/>
                             </a>
                             <a href='https://www.aws.amazon.com/'>
-                            <img src={Amazon} />
+                            <img src={Amazon} alt='#'/>
                             </a>
                             <a href='https://www.holded.com/' className='holded'>
-                                <img src={Holded} />
+                                <img src={Holded} alt='#'/>
                             </a>
                         </div>
                     </div>

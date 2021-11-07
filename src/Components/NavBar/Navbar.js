@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className='navBar'>
             <NavLink to='/' activeClassName='active'>
                 <div className='logoNavBar'>
-                    <img src={Logo}></img>
+                    <img src={Logo} alt='#'></img>
                 </div>
                 </NavLink>
                 <div className='routeNavBar'>
