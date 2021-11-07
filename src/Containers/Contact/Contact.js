@@ -1,7 +1,7 @@
 import './Contact.css';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
-import Image from '../../images/desktop.png';
+import Placeholder from '../../images/Placeholder.png';
 
 
 const Contact = () => {
@@ -18,7 +18,7 @@ const Contact = () => {
     }
 
     const handleSubmit = (event) => {
-        alert("The message was sended")
+        console.log("The message was sended")
       }
 
     return (
@@ -29,7 +29,7 @@ const Contact = () => {
                     <div className='contactFormBox'>
                         <div className='contactImage'>
                             <h1>Contáctanos</h1>
-                            <img src={Image} alt="placeholder" />
+                            <img src={Placeholder} alt="placeholder" />
                         </div>
                         <div className='contactInput'>
                             <form className="contactFormulario" onSubmit={handleSubmit} action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSc2eL5G6OOvzx84ly_6s5kAONaM2VUa2cOTq3uAmmHDfYKoRg/formResponse" method='POST'> 

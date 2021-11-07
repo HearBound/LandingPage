@@ -5,6 +5,12 @@ import { useHistory } from 'react-router';
 
 const Footer = () => {
     const history = useHistory();
+
+    let handleClick = () => {
+        let path = 'https://www.instagram.com/hearbound/';
+        window.location.href = path;
+    }
+
     return (
         <footer>
 
@@ -19,7 +25,7 @@ const Footer = () => {
                         <div className='socialText'>Síguenos en nuestras redes sociales</div>
                         <div className='socialImages'>
                             <Youtube/>
-                            <Instagram/>
+                            <Instagram onClick={handleClick}/>
                             <Youtube/>
                             
                         </div>

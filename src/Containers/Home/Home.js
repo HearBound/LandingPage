@@ -1,16 +1,16 @@
 import './Home.css';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
-import Image from '../../images/desktop.png';
 import Amazon from '../../images/amazon.png';
 import Holded from '../../images/holded.png';
 import Res from '../../images/res.png';
-import mockup1 from '../../images/mockup1.png'
+import mockup9 from '../../images/mockup9.png'
 import mockup2 from '../../images/mockup2.png'
 import mockup3 from '../../images/mockup3.png'
 import mockup4 from '../../images/mockup4.png'
-import mockup5 from '../../images/mockup5.png'
+import mockup8 from '../../images/mockup8.png'
 import mockup6 from '../../images/mockup6.png'
+import mockup7 from '../../images/mockup7.png'
 import { useHistory } from 'react-router';
 
 const Home = () => {
@@ -65,7 +65,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={Image}></img>
+                                <img src={mockup7}></img>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={mockup6}></img>
+                                <img src={mockup9}></img>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ const Home = () => {
                     <div className='bodyMainSection'>
                         <div className='whiteSection'>
                             <div className='sectionImage'>
-                                <img src={mockup2}></img>
+                                <img className='mockup2' src={mockup2}></img>
                             </div>
                             <div className='whiteSectionText'>
                                 <div className='whiteTitle'>
@@ -143,7 +143,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className='sectionImage'>
-                                <img src={mockup5}></img>
+                                <img className='mockup8' src={mockup8}></img>
                             </div>
                         </div>
                     </div>

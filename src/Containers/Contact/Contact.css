@@ -20,7 +20,7 @@
 
 .contactFormBox {
   transition: 1s;
-  width: auto;
+  width: 90%;
   height: auto;
   background: rgba(6, 75, 224, 0.2);
   border-radius: 1rem;
@@ -34,8 +34,8 @@
 .contactImage {
   margin-top: 5%;
   margin-bottom: 5%;
-  height: 80%;
-  width: 45%;
+  height: auto;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,8 +47,8 @@
 }
 
 .contactImage img {
-  width: 80%;
-  height: 80%;
+  width: 110%;
+  height: auto;
 }
 
 .contactInput {
@@ -115,19 +115,17 @@ textarea {
   }
   .contactImage img {
     transition: 1s;
-    width: 16rem;
-    height: 16rem;
+    width: 25rem;
+    height: auto;
   }
   .contactFormBox {
     transition: 1s;
     width: 90%;
-    height: 100vh;
-    gap: 5%;
     flex-direction: column;
   }
   .contactInput {
     width: 100%;
-    height: 30rem;
+    height: auto;
     transition: 1s;
     margin-bottom: 10%;
   }

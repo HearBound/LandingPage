@@ -2,9 +2,13 @@ import './About.css';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
 import TeamCard from '../../Components/TeamCard/TeamCard';
-import Image from '../../images/desktop.png';
 import Carousel from '../../Components/Carousel/Carousel';
 import { useHistory } from 'react-router';
+import Angel from "../../images/Angel.jpg"
+import Jaime from "../../images/Jaime.jpg"
+import David from "../../images/David.jpg"
+import Goyo from "../../images/Goyo.jpg"
+import Moai from "../../images/El_menda.jpg"
 
 const About = () => {
 
@@ -36,12 +40,11 @@ const About = () => {
                     <div className='titleTeam'>Este es nuestro equipo</div>
                     {/* Show carousel just  in Desktop format */}
                     <div className='cards' id='showCards'>
-                        <TeamCard image={Image} name='Jaime Martinez' job='CEO' />
-                        <TeamCard image={Image} name='William Sargisson' job='COO'/>
-                        <TeamCard image={Image} name='Gregorio Bujor' job='CTO'/>
-                        <TeamCard image={Image} name='Angel Rodriguez' job='Subdirector de desarrollo'/>
-                        <TeamCard image={Image} name='David Martinez' job='Programador'/>
-
+                        <TeamCard image={Jaime} name='Jaime Martinez' job='CEO' />
+                        <TeamCard image={Moai} name='William Sargisson' job='COO'/>
+                        <TeamCard image={Goyo} name='Gregorio Bujor' job='CTO'/>
+                        <TeamCard image={Angel} name='Angel Rodriguez' job='Subdirector de desarrollo'/>
+                        <TeamCard image={David} name='David Martinez' job='Programador'/>
                     </div>
                     {/* Show carousel just  in Movil format */}
                     <div id='showCarousel'>
