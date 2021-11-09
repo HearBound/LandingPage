@@ -150,7 +150,7 @@ const Home = () => {
                 <section className='six'>
                     <div className='testNow'>
                         <p>¿Te gustaría ser de los primeros en usarla?</p>
-                        <button>Pruébalo Ya</button>
+                        <button onClick={() => history.push('/new')}>Pruébalo Ya</button>
                     </div>
                     <div className='partners'>
                         <div className='partnersText'><p>Queremos dar también las gracias a nuestros partners y colaboradores, como espacioRES, que nos ayudan día a día a llevar este proyecto adelante.  </p></div>
