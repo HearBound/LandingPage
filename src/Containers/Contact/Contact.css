@@ -82,6 +82,7 @@ textarea {
   margin-bottom: 5%;
 }
 .contactMessage {
+  font-family: inherit;
   overflow: hidden;
 }
 
