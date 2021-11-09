@@ -2,9 +2,34 @@ import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/NavBar/Navbar';
 import './TryFree.css';
 import { useHistory } from 'react-router';
+import React, {useState} from 'react';
+import axios from 'axios';
 
 const TryFree = () => {
     const history = useHistory();
+    const [email, setEmail] = useState("");
+    const GOOGLE_FORM_ACTION_URL = 'https://docs.google.com/forms/u/3/d/e/1FAIpQLSc6FBkLO0CcCEqLz8Pd-GLWZJatN7F7Tv_Z4CwDFEnBZEte6Q/formResponse';
+    const GOOGLE_FORM_EMAIL_ID = 'entry.359607118';
+
+  const sendMessage = () => {
+    const formData = new FormData()
+    formData.append(GOOGLE_FORM_EMAIL_ID, email)
+    axios.post(GOOGLE_FORM_ACTION_URL, formData)
+     .then(() => {
+       setEmail('')
+    }).catch(() => {
+        setEmail('')
+        console.log(email)
+    })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    //other stuff
+    sendMessage()
+
+}
+    
     return (
         <>
             <Navbar />
@@ -19,9 +44,9 @@ const TryFree = () => {
                             Aparte de tener la oportunidad de ser una de las primeras personas en
                             probar y subir canciones.
                         </div>
-                        <form className='coverRegisterMainTryFree'>
-                            <input type="text" name="name" className='coverRegisterInputTryFree' placeholder='Escribe aquí tu mail y empieza ahora' />
-                            <input type="submit" value="Registrarme" className='coverRegisterButtonTryFree'/>
+                        <form  className='coverRegisterMainTryFree' method="POST" action={GOOGLE_FORM_ACTION_URL} target='_blank'>
+                            <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} name={GOOGLE_FORM_EMAIL_ID} className='coverRegisterInputTryFree' placeholder='Escribe aquí tu mail y empieza ahora' />
+                            <input type="submit" value="Registrarme" onClick={handleSubmit} className='coverRegisterButtonTryFree'/>
                         </form>
                     </div>
 

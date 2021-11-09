@@ -100,6 +100,9 @@ footer {
   gap: 10%;
   margin-top: 12%;
 }
+.instagram{
+  cursor: pointer;
+}
 
 .textFooter {
   width: 100%;
